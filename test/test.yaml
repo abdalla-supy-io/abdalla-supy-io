@@ -1,13 +1,13 @@
----
-apiVersion: mongodbcommunity.mongodb.com/v1
-kind: MongoDBCommunity
-metadata:
-  name: dev-mongodb-cluster
-  namespace: test
-spec:
-  type: ReplicaSet
-  members: 3
-  version: "6.0.2"
+# ---
+# apiVersion: mongodbcommunity.mongodb.com/v1
+# kind: MongoDBCommunity
+# metadata:
+#   name: dev-mongodb-cluster
+#   namespace: test
+# spec:
+#   type: ReplicaSet
+#   members: 3
+#   version: "6.0.2"
 ---
 # apiVersion: mongodbcommunity.mongodb.com/v1
 # kind: MongoDBCommunity
