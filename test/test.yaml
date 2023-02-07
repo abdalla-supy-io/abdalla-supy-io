@@ -43,10 +43,10 @@ spec:
             - name: mongod
               resources:
                 limits:
-                  cpu: "1.5"
+                  cpu: "1"
                   memory: 1000M
                 requests:
-                  cpu: "1.5"
+                  cpu: "1"
                   memory: 1000M
             - name: mongodb-agent
               resources:
